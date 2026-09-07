@@ -1,4 +1,4 @@
-# Python Practice & Problem Solving
+# Python Practice
 
 ## Concepts Practised
 * **In-Place Mutation vs. Pure Functions:** Learning how Python handles memory and data modification (such as list manipulation methods).
