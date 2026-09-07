@@ -18,3 +18,12 @@ def modify(text: str, chosen_letter: str, replace: str):
                 text = text.replace(c, replace)
     return text
 print(modify("banana", "a", "*"))
+
+for word in words:
+    for index in indices:
+        print(word[index], end=' ')
+    print()
+
+letters = ["U", "S", "Y", "D"]
+for i in range(4):
+    print(letters[3 - i], end=' ')

@@ -23,3 +23,26 @@ def sum_until(n):
     return output
 
 print(sum_until(10))
+
+
+nums = [3, 7, 2]
+total = 12
+
+for num in nums:
+    total = total - num
+print(total)
+
+number = 15
+if number % 2 == 0 or number % 3 == 0:
+    print("Divisible by 2 or 3")
+else:
+    print("Not divisible by 2 or 3")
+
+lowest = 4
+i = 16
+
+while i > lowest:
+    print(i, end=' ')
+    i = i // 2
+
+print(i, end=' ')
